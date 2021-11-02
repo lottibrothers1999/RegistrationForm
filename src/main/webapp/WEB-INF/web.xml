@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" version="4.0">
+  <display-name>RegForm</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+  </welcome-file-list>
+  
+  <servlet>
+     <servlet-name>tiger</servlet-name>
+     <servlet-class>com.Validation.login</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     <servlet-name>tiger</servlet-name>
+     <url-pattern>/login1</url-pattern>
+     </servlet-mapping>
+      <servlet>
+     <servlet-name>tiger1</servlet-name>
+     <servlet-class>com.Validation.SignUp</servlet-class>
+     </servlet>
+     <servlet-mapping>
+     <servlet-name>tiger1</servlet-name>
+     <url-pattern>/Signup</url-pattern>
+     </servlet-mapping>
+</web-app>
